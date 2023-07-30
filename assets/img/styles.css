@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: hwb(0 100% 0%) !important; 
+    height: 20vh;
+    border-bottom: 1px solid  rgb(0 0 0 / 50%);
+}
+.navbar-light .navbar-brand {
+    font-weight: 700;
+    font-size: 32px;
+}
+.nav-item{
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(0 0 0 / 50%);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(33 22 209 / 75%);
+    font-weight: 500;
+}
